@@ -15,7 +15,7 @@ async def on_message(message):
         if role in message.author.roles:
             await message.channel.send("You got the "+role.name+" role!")
         else:
-            await message.channel.send("You don´t have the "+role.name+" role!")
+            await message.channel.send("You don't have the "+role.name+" role!")
 
 
 @bot.event
